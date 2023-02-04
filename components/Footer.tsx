@@ -22,9 +22,8 @@ const footerItems: FooterItems = [
     title: 'Knowledge',
     items: [
       { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
+      { title: 'Contacto', href: '/contact' },
       { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
     ],
   },
 ];

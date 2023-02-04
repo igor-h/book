@@ -1,6 +1,6 @@
 export default function Logo({ ...rest }) {
   return (
-    <svg id="logo-34" width="155" height="40" viewBox="0 0 500 92.85" fill="none" xmlns="http://www.w3.org/2000/svg" {...rest}>
+    <svg id="logo-34" width="255" height="60" viewBox="0 0 500 92.85" fill="none" xmlns="http://www.w3.org/2000/svg" {...rest}>
 		<g>
 		<path fill="#f1842b" d="M60.06,19.89v62.36l-2.08-2.03l-2.15,2.02V19.89c0-0.39-0.28-0.75-0.66-0.85L22.88,8.4
 			c-0.08-0.02-0.16-0.04-0.25-0.04c-0.15,0-0.32,0.04-0.46,0.12l-8.79,4.44c-0.31,0.15-0.49,0.46-0.5,0.78l-0.56,58.85
