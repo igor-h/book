@@ -14,19 +14,19 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>La primera plataforma de certificación de libros</CustomOverTitle>
+        <Heading>Haz tu vida más fácil y certifícate con Bookledge</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+        Bienvenido a nuestra plataforma. Aquí puedes demostrar tus conocimientos adquiridos al leer tus libros favoritos y obtener una certificación reconocida.
+        ¡Empieza a fortalecer tus habilidades de lectura y a destacar tus logros hoy mismo!
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Suscribirme al acceso anticipado <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Video de introducción <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>

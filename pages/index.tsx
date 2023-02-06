@@ -27,34 +27,41 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/por-que-book.svg" title="¿Por qué Bookledge?" overTitle="todos nos preguntamos...">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+            Nuestra plataforma de certificación de conocimiento ofrece una experiencia única y eficiente para verificar y demostrar tus habilidades.
+            Con una interfaz intuitiva y fácil de usar, podrás evaluar tus conocimientos de manera rápida y sencilla. {' '}
+              <Link href="">Además, ofrecemos una certificación reconocida y valiosa para impulsar tu carrera o mejorar tu CV.</Link> 
+              <br />
+              ¡Elige nuestra plataforma y haz que tus habilidades hablen por ti!
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/certification.svg" title="Obtén tu certificado" overTitle="Ahora en Bookledge" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            Obtener un certificado de nuestra plataforma de certificación de conocimiento.
+            Al responder un cuestionario de preguntas riguroso, 
+            puedes demostrar tus habilidades y conocimientos a empleadores y potenciales clientes. 
+            <br />
+            <Link href="">Además, tu certificado incluye credenciales que puedes compartir en tu perfil de <strong>LinkedIn</strong></Link>, 
+            lo que aumentará tu visibilidad y te ayudará a destacar en la industria. 
+            Este certificado también te permitirá evaluar y mejorar tus conocimientos en una materia específica.
+            <br />
+            ¡No esperes más y obtén tu certificado hoy mismo!
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li><strong>Mejora de CV y destaque en LinkedIn</strong></li>
+              <li><strong>Evaluación y mejora de conocimientos</strong></li>
+              <li><strong>Logro personal y motivación</strong></li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
-        <DarkerBackgroundContainer>
-          <Cta />
-          <FeaturesGallery />
-          <Features />
-          <Testimonials />
-          <ScrollableBlogPosts posts={posts} />
-        </DarkerBackgroundContainer>
+        {/* <DarkerBackgroundContainer>*/}
+          {/* <Cta /> Early access subscribe */}
+          {/* <FeaturesGallery /> Add in the future screenshots of the app */}
+          {/*<Features /> */}
+          {/* <Testimonials /> */}
+          {/* <ScrollableBlogPosts posts={posts} /> */}
+         {/* </DarkerBackgroundContainer> */}
       </HomepageWrapper>
     </>
   );
