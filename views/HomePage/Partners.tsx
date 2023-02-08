@@ -7,26 +7,31 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
-  'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+  // 'logoipsum-logo-1.svg',
+  // 'logoipsum-logo-2.svg',
+  // 'logoipsum-logo-3.svg',
+  // 'logoipsum-logo-4.svg',
+  // 'logoipsum-logo-5.svg',
+  // 'logoipsum-logo-6.svg',
+  // 'logoipsum-logo-7.svg',
+  'logo-umh.svg',
+  'logo-ua-blue.svg',
+  'logo-sx.svg',
+  'logo-ua.svg',
+  
 ];
 
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>socios oficiales</Title>
       <Swiper
         modules={[Autoplay]}
-        slidesPerView={6}
-        spaceBetween={30}
+        slidesPerView={3}
+        spaceBetween={40}
         loop={true}
         autoplay={{ delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
-        speed={3000}
+        speed={10000}
         breakpoints={{
           320: { slidesPerView: 2 },
           768: { slidesPerView: 4 },
