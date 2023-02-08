@@ -41,7 +41,7 @@ export default function MailSentState() {
           fill="#1673ff"
         />
       </svg>
-      <p>Mail successfully subscribed!</p>
+      <p>Suscrito correctamente a futuros anuncios</p>
     </Wrapper>
   );
 }
