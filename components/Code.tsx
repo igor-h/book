@@ -39,7 +39,13 @@ export default function Code({
 
   return (
     <>
-      <Highlight {...defaultProps} theme={undefined} code={code} language={language}>
+
+{/* Type error: 'Highlight' cannot be used as a JSX component.
+  Its instance type 'Highlight' is not a valid JSX element.
+    The types returned by 'render()' are incompatible between these types.
+      Type 'React.ReactNode' is not assignable to type 
+    'import("/vercel/path0/node_modules/@types/styled-components/node_modules/@types/react/index").ReactNode'. */}
+      {/* <Highlight {...defaultProps} theme={undefined} code={code} language={language}>
         {({ className, style, tokens, getLineProps, getTokenProps }) => (
           <>
             <CodeWrapper className="code-wrapper" language={language}>
@@ -67,7 +73,7 @@ export default function Code({
             {caption && <Caption>{caption}</Caption>}
           </>
         )}
-      </Highlight>
+      </Highlight> */}
     </>
   );
 }
