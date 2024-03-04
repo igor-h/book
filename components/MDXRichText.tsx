@@ -111,7 +111,7 @@ const components = {
   inlineCode: TextHighlight,
   Image: ArticleImage,
   Link,
-  Code,
+  // Code,
   Quote,
   ArticleImage,
 };
