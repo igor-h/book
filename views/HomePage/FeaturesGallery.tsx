@@ -1,7 +1,7 @@
 import NextImage from 'next/image';
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Collapse from 'components/Collapse';
+// import Collapse from 'components/Collapse';
 import Container from 'components/Container';
 import OverTitle from 'components/OverTitle';
 import SectionTitle from 'components/SectionTitle';
@@ -60,11 +60,11 @@ export default function FeaturesGallery() {
           </CircleContainer>
           <h4>{singleTab.title}</h4>
         </TabTitleContainer>
-        <Collapse isOpen={isActive} duration={300}>
+        {/* <Collapse isOpen={isActive} duration={300}>
           <TabContent>
             <div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
           </TabContent>
-        </Collapse>
+        </Collapse> */}
       </Tab>
     );
   });

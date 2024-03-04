@@ -1,8 +1,8 @@
 import { PropsWithChildren, useState } from 'react';
 import styled from 'styled-components';
 import { media } from 'utils/media';
-import Collapse from './Collapse';
-import RichText from './RichText';
+// import Collapse from './Collapse';
+// import RichText from './RichText';
 
 interface AccordionProps {
   title: string;
@@ -28,11 +28,11 @@ export default function Accordion({ title, isOpen, children }: PropsWithChildren
           </svg>
         </Icon>
       </TitleWrapper>
-      <Collapse isOpen={isActive} duration={300}>
+      {/* <Collapse isOpen={isActive} duration={300}>
         <Description>
           <RichText>{children}</RichText>
         </Description>
-      </Collapse>
+      </Collapse> */}
     </AccordionWrapper>
   );
 }
