@@ -2,7 +2,7 @@ import { GetStaticPropsContext, InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-import { staticRequest } from 'tinacms';
+// import { staticRequest } from 'tinacms';
 import Container from 'components/Container';
 import MDXRichText from 'components/MDXRichText';
 import { NonNullableChildrenDeep } from 'types';
@@ -79,37 +79,37 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
 }
 
 export async function getStaticPaths() {
-  const postsListData = await staticRequest({
-    query: `
-      query PostsSlugs{
-        getPostsList{
-          edges{
-            node{
-              sys{
-                basename
-              }
-            }
-          }
-        }
-      }
-    `,
-    variables: {},
-  });
+  // const postsListData = await staticRequest({
+  //   query: `
+  //     query PostsSlugs{
+  //       getPostsList{
+  //         edges{
+  //           node{
+  //             sys{
+  //               basename
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `,
+  //   variables: {},
+  // });
 
-  if (!postsListData) {
-    return {
-      paths: [],
-      fallback: false,
-    };
-  }
+  // if (!postsListData) {
+  //   return {
+  //     paths: [],
+  //     fallback: false,
+  //   };
+  // }
 
-  type NullAwarePostsList = { getPostsList: NonNullableChildrenDeep<Query['getPostsList']> };
-  return {
-    paths: (postsListData as NullAwarePostsList).getPostsList.edges.map((edge) => ({
-      params: { slug: normalizePostName(edge.node.sys.basename) },
-    })),
-    fallback: false,
-  };
+  // type NullAwarePostsList = { getPostsList: NonNullableChildrenDeep<Query['getPostsList']> };
+  // return {
+  //   paths: (postsListData as NullAwarePostsList).getPostsList.edges.map((edge) => ({
+  //     params: { slug: normalizePostName(edge.node.sys.basename) },
+  //   })),
+  //   fallback: false,
+  // };
 }
 
 function normalizePostName(postName: string) {
@@ -134,15 +134,15 @@ export async function getStaticProps({ params }: GetStaticPropsContext<{ slug: s
     }
   `;
 
-  const data = (await staticRequest({
-    query: query,
-    variables: variables,
-  })) as { getPostsDocument: PostsDocument };
+//   const data = (await staticRequest({
+//     query: query,
+//     variables: variables,
+//   })) as { getPostsDocument: PostsDocument };
 
-  return {
-    props: { slug, variables, query, data },
-  };
-}
+    // return {
+    //   props: { slug, variables, query, data },
+    // };
+ }
 
 const CustomContainer = styled(Container)`
   position: relative;
