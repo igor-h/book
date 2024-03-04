@@ -6,7 +6,7 @@ import InformationSection from 'views/ContactPage/InformationSection';
 
 export default function ContactPage() {
   return (
-    <Page title="Contacto" description="Texto de prueba.">
+    <Page title="Contacto" description="Rellena el formulario y nos podreemos en contacto contigo.">
       <ContactContainer>
         <InformationSection />
         <FormSection />

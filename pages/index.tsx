@@ -5,13 +5,8 @@ import BasicSection from 'components/BasicSection';
 import Link from 'components/Link';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
-import Cta from 'views/HomePage/Cta';
-import Features from 'views/HomePage/Features';
-import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
-import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
-import Testimonials from 'views/HomePage/Testimonials';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -20,7 +15,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          content="A la espera de texto de descripción."
         />
       </Head>
       <HomepageWrapper>
@@ -55,13 +50,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
-        {/* <DarkerBackgroundContainer>*/}
-          {/* <Cta /> Early access subscribe */}
-          {/* <FeaturesGallery /> Add in the future screenshots of the app */}
-          {/*<Features /> */}
-          {/* <Testimonials /> */}
-          {/* <ScrollableBlogPosts posts={posts} /> */}
-         {/* </DarkerBackgroundContainer> */}
+
       </HomepageWrapper>
     </>
   );

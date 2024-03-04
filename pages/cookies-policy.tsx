@@ -4,112 +4,46 @@ import RichText from 'components/RichText';
 
 export default function ContactPage() {
   return (
-    <Page title="Cookies policy">
+    <Page title="Política de Cookies">
       <CookiesPolicyContainer>
         <RichText>
           <p>
-            Deserunt culpa consequat non nostrud esse cillum pariatur velit consequat. Est fugiat voluptate deserunt sint culpa sint.
-            Laboris irure veniam quis ea voluptate. Nulla ad proident ex excepteur. Sunt sint ex laborum dolor quis magna aliquip qui amet
-            nulla. Laboris proident aute exercitation irure esse id eu occaecat ad ipsum est. Dolor cillum Lorem occaecat enim veniam
-            ullamco cupidatat qui dolore exercitation Lorem eu quis magna. Esse cillum aliqua et laborum eu dolore consectetur. Exercitation
-            id non quis ex qui in dolore est est proident. Laborum nisi commodo fugiat nulla et magna veniam aliquip. Aliqua duis non
-            nostrud ea velit incididunt. Laboris nostrud incididunt laborum enim eu dolor. Culpa anim sit sit ea. Labore laborum et aute ex
-            est est excepteur labore voluptate deserunt. Amet ea laboris ea culpa dolor laborum consequat aliquip reprehenderit voluptate
-            non laboris ipsum. Quis excepteur pariatur est enim duis consectetur nulla cupidatat ipsum dolor nisi ipsum. Dolore dolor
-            nostrud aute dolore. Excepteur reprehenderit aliquip amet pariatur excepteur. Aliqua commodo nulla dolor ex nisi duis
-            reprehenderit sint aliqua in minim. Lorem amet quis non veniam ut reprehenderit aliquip mollit do ullamco pariatur.
-          </p>
-          <br />
-          <strong>
-            Reprehenderit aliquip minim commodo magna occaecat dolore labore mollit mollit do esse deserunt. Aliquip eu reprehenderit aute{' '}
-          </strong>
-          <ul>
-            <li>
-              Ipsum cillum amet aliqua laboris ut excepteur enim laborum veniam officia officia esse. Anim et voluptate qui quis cillum
-              labore ipsum incididunt consequat est ea exercitation et commodo. Consequat consequat amet officia sit non id occaecat
-              occaecat duis irure.
-            </li>
-            <li>Nostrud dolor pariatur dolore Lorem in aliqua sunt aliqua excepteur laboris exercitation proident officia.</li>
-            <li>Ut et voluptate consequat elit amet minim.</li>
-            <li>Reprehenderit et consequat ea minim est proident eu incididunt non laboris proident culpa consequat sint.</li>
-          </ul>
+          Última actualización: 20 de Febrero de 2024.
 
-          <table>
-            <tr>
-              <th>Column 1</th>
-              <th>Column 2</th>
-              <th>Column 3</th>
-              <th>Column 4</th>
-            </tr>
-            <tr>
-              <td>Dolor do culpa excepteur proident anim duis deserunt nulla dolor et tempor.</td>
-              <td>Eu enim qui ea nostrud minim.</td>
-              <td>Proident officia velit ut in est culpa non adipisicing excepteur exercitation aliqua.</td>
-              <td>Duis proident adipisicing magna aute sint adipisicing sit deserunt minim eu.</td>
-            </tr>
-            <tr>
-              <td>Nisi cillum culpa adipisicing cillum.</td>
-              <td>Proident nulla cillum aute occaecat mollit labore.</td>
-              <td>Non ex eiusmod tempor cupidatat consequat anim et veniam nisi sint fugiat pariatur irure.</td>
-              <td>Consectetur nisi culpa non ex ipsum deserunt magna est est magna.</td>
-            </tr>
-            <tr>
-              <td>Officia laboris anim voluptate incididunt mollit mollit.</td>
-              <td>Adipisicing est consectetur id esse nostrud culpa non exercitation cupidatat pariatur dolore amet.</td>
-              <td>Dolor ex est ad ut adipisicing irure nulla esse aliqua nisi ipsum id aliqua.</td>
-              <td>Proident anim consequat enim sit sint pariatur.</td>
-            </tr>
-            <tr>
-              <td>Sint anim sint deserunt in elit ad Lorem dolore tempor.</td>
-              <td>Consequat nostrud irure anim do ex dolor amet ea dolore incididunt esse et cupidatat.</td>
-              <td>Eu nostrud occaecat incididunt deserunt Lorem ad Lorem elit.</td>
-              <td>Id ullamco in ad adipisicing magna elit ea minim sunt esse adipisicing.</td>
-            </tr>
-            <tr>
-              <td>Ea adipisicing ut nulla aute dolore quis in reprehenderit qui ipsum Lorem magna.</td>
-              <td>Irure ex dolore consequat mollit Lorem nostrud velit irure.</td>
-              <td>Dolore minim ad esse occaecat.</td>
-              <td>Qui id tempor ut culpa.</td>
-            </tr>
-            <tr>
-              <td>Ea ut esse non dolor do cupidatat.</td>
-              <td>Deserunt pariatur minim nisi elit ipsum officia irure id culpa ipsum.</td>
-              <td>Ea cillum voluptate consectetur et reprehenderit mollit ut excepteur exercitation do fugiat duis qui.</td>
-              <td>Id laborum officia aliqua ut nulla mollit.</td>
-            </tr>
-            <tr>
-              <td>Laborum et et sint ad incididunt amet aliqua commodo esse proident.</td>
-              <td>Velit aute proident aliqua consequat minim laborum reprehenderit reprehenderit eiusmod amet in aute.</td>
-              <td>Adipisicing adipisicing consequat incididunt officia in eu minim non cupidatat nulla nostrud sint.</td>
-              <td>Excepteur minim ea ex commodo nisi aute nostrud cupidatat consectetur.</td>
-            </tr>
-            <tr>
-              <td>Anim elit aliquip elit mollit pariatur consectetur commodo.</td>
-              <td>Consequat cupidatat sit sit quis labore culpa in duis duis amet elit.</td>
-              <td>Laborum Lorem pariatur id adipisicing minim.</td>
-              <td>Deserunt Lorem do id ea aliquip sunt.</td>
-            </tr>
-            <tr>
-              <td>Laborum aute laborum elit adipisicing velit commodo occaecat amet laborum.</td>
-              <td>Dolor voluptate duis elit id.</td>
-              <td>Excepteur sunt duis id officia id reprehenderit enim exercitation dolor.</td>
-              <td>Et excepteur duis adipisicing laboris labore adipisicing id dolor adipisicing exercitation eu nisi.</td>
-            </tr>
-            <tr>
-              <td>Esse consequat commodo irure elit nostrud esse ut magna commodo ipsum.</td>
-              <td>Exercitation exercitation ipsum qui aute ad commodo exercitation aliquip nisi aute Lorem in nulla.</td>
-              <td>Sint cillum esse quis mollit fugiat incididunt officia adipisicing do sint eu.</td>
-              <td>Consectetur aute ad aliquip eu Lorem proident irure aliqua aliqua officia reprehenderit reprehenderit amet.</td>
-            </tr>
-            <tr>
-              <td>Est Lorem exercitation eiusmod sit et.</td>
-              <td>Quis aliqua irure dolor do reprehenderit non id excepteur voluptate eiusmod veniam nostrud et elit.</td>
-              <td>Minim id sit officia consectetur irure id deserunt excepteur eu.</td>
-              <td>
-                Reprehenderit pariatur reprehenderit voluptate cillum minim tempor elit sint eiusmod ullamco id incididunt officia dolore.
-              </td>
-            </tr>
-          </table>
+          Esta Política de Cookies explica qué son las cookies y cómo las utilizamos en nuestro sitio web. Debes leer esta política para comprender qué son las cookies, cómo las utilizamos, los tipos de cookies que utilizamos, es decir, la información que recopilamos usando cookies y cómo se utiliza esa información, y cómo controlar las preferencias de las cookies. Para obtener más información sobre cómo usamos, almacenamos y mantenemos seguros tus datos personales, consulta nuestra Política de Privacidad.
+
+          Puedes cambiar o retirar tu consentimiento de la declaración de cookies en nuestro sitio web en cualquier momento.
+
+          Tu consentimiento se aplica a los siguientes dominios: [Insertar dominio]
+
+          ¿Qué son las cookies?
+
+          Las cookies son pequeños archivos de texto que se utilizan para almacenar pequeñas piezas de información. Se almacenan en tu dispositivo cuando el sitio web se carga en tu navegador. Estas cookies nos ayudan a que el sitio web funcione correctamente, a que sea más seguro, a proporcionar una mejor experiencia para el usuario y a entender cómo funciona el sitio web y qué mejoras se pueden realizar.
+
+          ¿Cómo utilizamos las cookies?
+
+          Como la mayoría de los servicios en línea, nuestro sitio web utiliza cookies de primera parte y de terceros para diversos fines. Las cookies de primera parte son principalmente necesarias para que el sitio web funcione correctamente y no recopilan ningún dato personal identificable.
+
+          Los tipos de cookies que utilizamos
+
+          Esenciales: Algunas cookies son esenciales para que puedas experimentar la funcionalidad completa de nuestro sitio. Nos permiten mantener sesiones de usuario y evitar amenazas a la seguridad. No recopilan ni almacenan ninguna información personal.
+
+          Estadísticas: Estas cookies almacenan información como el número de visitantes del sitio web, el número de visitantes únicos, qué páginas del sitio web han sido visitadas, la fuente de la visita, etc. Esta información nos ayuda a comprender y analizar el rendimiento del sitio web y donde necesita mejorar.
+
+          Funcionales: Estas son las cookies que ayudan a ciertas funcionalidades no esenciales en nuestro sitio web. Estas funcionalidades incluyen incrustar contenido como videos o compartir contenido en el sitio web en plataformas de redes sociales.
+
+          Preferencias: Estas cookies nos ayudan a almacenar tus configuraciones y preferencias de navegación, como las preferencias de idioma, para que tengas una mejor y más eficiente experiencia en futuras visitas al sitio web.
+
+          ¿Cómo puedo controlar las preferencias de las cookies?
+
+          Si decides cambiar tus preferencias más tarde a través de tu sesión de navegación, puedes hacer clic en la pestaña "Política de Privacidad y Cookies" en tu pantalla. Esto mostrará el aviso de consentimiento nuevamente, lo que te permitirá cambiar tus preferencias o retirar tu consentimiento por completo.
+
+          Además, diferentes navegadores proporcionan diferentes métodos para bloquear y eliminar las cookies utilizadas por los sitios web. Puedes cambiar la configuración de tu navegador para bloquear / eliminar las cookies. Para obtener más información sobre cómo administrar y eliminar cookies, visita wikipedia.org, www.allaboutcookies.org.
+
+          Si tienes alguna pregunta sobre nuestra política de cookies, no dudes en ponerte en contacto con nosotros a través de nuestra información de contacto.
+
+          Esta Política de Cookies se actualizó por última vez el 20 de Febrero de 2024. y puede ser actualizada en el futuro para reflejar cambios en las prácticas de cookies.
+          </p>
         </RichText>
       </CookiesPolicyContainer>
     </Page>

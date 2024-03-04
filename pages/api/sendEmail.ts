@@ -9,15 +9,15 @@ export default async function SendEmail(req: NextApiRequest, res: NextApiRespons
   const referer = req.headers.referer;
 
   const content = {
-    to: ['contact@bstefanski.com'],
-    from: 'contact@bstefanski.com',
+    to: ['hola@bookledge.es'],
+    from: 'hola@bookledge.es',
     subject: subject,
     text: description,
     html: `<div>
-    <h1>Name: ${name}</h1>
+    <h1>Nombre: ${name}</h1>
     <h1>E-mail: ${email}</h1>
     <p>${description}</p>
-    <p>Sent from: ${referer || 'Not specified or hidden'}`,
+    <p>Enviado por: ${referer || 'No especificado o oculto.'}`,
   };
 
   try {
